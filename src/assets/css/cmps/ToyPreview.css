@@ -1,0 +1,68 @@
+.toy-preview {
+    animation: bgc-animation 4s linear infinite;
+    height: 38vh;
+    width: 100%;
+    text-align: center;
+    border-radius: 40px;
+    font-size: 20px;
+    color: var(--clr0); 
+    min-width: 100%;
+}
+
+@keyframes bgc-animation {
+    0%    {background-color: rgb(228, 151, 198)}
+    50% {background-color: rgb(226, 205, 218)}
+    100%    {background-color: rgb(228, 151, 198)}
+}
+
+.toy-preview-img {
+    height: 25vh;
+    max-width: 95%;
+    border-radius: 15px;
+}
+
+.toy-preview-name {
+    font-weight: bold;
+    font-size: 22px;
+    margin: 0;
+    padding: 5px;
+}
+
+.toy-preview-price {
+    margin: 0;
+    padding: 5px;
+}
+
+.preview-delete-btn {
+    border: none;
+    background-color: rgba(0,0,0,0);
+    cursor: pointer;
+}
+
+.fa-trash {
+    font-size: 20px;
+    opacity: 0.7;
+}
+
+.preview-edit-btn, .preview-details-btn {
+    height: 2vh;
+    width: 4.2vw;
+    font-size: 15px;
+    border-radius: 5px;
+    background-color: rgb(71, 71, 161);
+    color: white;
+    font-family: "Copperplate Gothic Light";
+    overflow: hidden;
+    cursor: pointer;
+    opacity: 0.9;
+}
+
+.toy-preview-btns {
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+}
+
+.preview-edit-btn:hover, .preview-details-btn:hover, .fa-trash:hover {
+    opacity: 1;
+}
