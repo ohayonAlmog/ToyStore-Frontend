@@ -1,5 +1,3 @@
-Github pages - https://ohayonalmog.github.io/ToyStore-Frontend/
-
 # vite-project
 
 This template should help get you started developing with Vue 3 in Vite.
